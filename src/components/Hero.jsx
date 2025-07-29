@@ -46,13 +46,13 @@ export default function Hero() {
 
           {/* Social Links */}
           <div className="flex justify-center md:justify-start items-center space-x-5 mb-6">
-            <a href="#">
+            <a href="https://github.com/nikhilkorada" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="Github" className="w-10 h-10" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/nikhil-korada-92a403283" target="_blank" rel="noopener noreferrer">
               <img src={linkedin} alt="Linkedin" className="w-10 h-10" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/nikhilkorada7/" target="_blank" rel="noopener noreferrer">
               <img src={instagram} alt="Instagram" className="w-10 h-10" />
             </a>
           </div>

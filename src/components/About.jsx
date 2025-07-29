@@ -19,10 +19,8 @@ export default function About() {
             <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6'>ABOUT ME</h1>
           </header>
           <p className='text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Nesciunt illo eaque, eum quas neque reprehenderit nisi, temporibus a ea adipisci blanditiis,
-              inventore vitae dolorum! Cumque ratione in, quisquam unde voluptas obcaecati alias.
-             Enim eligendi dolorem porro iste ab illo quis?
+            I’m a Software Developer skilled in full-stack JavaScript, including React, Node.js, and MongoDB. I’ve built real-world projects like appointment systems and data tools, focusing on clean code and user experience.
+            I enjoy problem-solving and continuously learning—currently exploring TypeScript, cloud platforms, and scalable backend systems.
           </p>
           <footer>
             <button className='inline-flex text-white border-2 py-2 px-4 sm:px-6 focus:outline-none hover:bg-[#801b9c] hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-sm sm:text-lg'>Learn More</button>

@@ -26,7 +26,9 @@ export default function Navbar() {
                         {link.name}
                     </a>
                 ))}
-                <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>Contact</button>
+                <a href="contact" onClick={(e) => { e.preventDefault(); const el = document.getElementById("contact");if (el) el.scrollIntoView({ behavior: "smooth" });}}>
+                    <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>Contact</button>
+                </a>
             </nav>
         </div>
 
@@ -41,7 +43,9 @@ export default function Navbar() {
                 <a key={link.id} href={link.link} className='text-lg text-white hover:text-gray-300' onClick={()=>setIsOpen(false)}>{link.name}</a>
             ))}
             {/* Contact Button */}
-            <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>Contact</button>
+            <a href="contact" onClick={(e) => { e.preventDefault(); const el = document.getElementById("contact");if (el) el.scrollIntoView({ behavior: "smooth" });}}>
+                <button className='inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg'>Contact</button>
+            </a>
         </div>
     </header>
   )

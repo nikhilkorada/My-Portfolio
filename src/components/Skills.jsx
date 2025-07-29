@@ -34,9 +34,7 @@ export default function Skills() {
           <h1 className='text-3xl sm:text-4xl font-bold'>
             My Experience <br /> and <span className='text-purple-400'>Skills</span>
           </h1>
-          <p className='text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati commodi omnis 
-          </p>
+          
         </header>
         <section data-aos='fade-up' data-aos-delay='500' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4'>
           {skillsData.map((skill)=>(
