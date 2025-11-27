@@ -41,7 +41,7 @@ export default function Hero() {
             I'm a Software Developer with a strong foundation in Data
             Structures, Full Stack Development, and Machine Learning. I enjoy
             building efficient web applications using technologies like React,
-            Node.js, and Python, and applying ML to solve real-world problems.
+            Node.js, and Java, and applying ML to solve real-world problems.
           </p>
 
           {/* Social Links */}
